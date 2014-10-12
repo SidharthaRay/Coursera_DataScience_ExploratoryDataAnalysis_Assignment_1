@@ -10,7 +10,7 @@ plot1 <- function() {
   elPoCons$Datetime <- strptime(paste(elPoCons$Date, elPoCons$Time, sep=" "), "%d/%m/%Y %H:%M:%S")
   
   #change globalActivePower class to numeric
-  elPoCons$globalActivePower <- as.numeric(elPoCons$Global_active_power)
+  elPoCons$GlobalActivePower <- as.numeric(elPoCons$Global_active_power)
   
   #initiate png graphics device
   png("plot1.png", width = 480, height = 480, units = "px")

@@ -10,7 +10,7 @@ plot3 <- function() {
   elPoCons$Datetime <- strptime(paste(elPoCons$Date, elPoCons$Time, sep=" "), "%d/%m/%Y %H:%M:%S")
   
   #change globalActivePower, Sub_metering_1, Sub_metering_2 and Sub_metering_3 class to numeric
-  elPoCons$globalActivePower <- as.numeric(elPoCons$Global_active_power)
+  elPoCons$GlobalActivePower <- as.numeric(elPoCons$Global_active_power)
   elPoCons$Sub_metering_1 <- as.numeric(elPoCons$Sub_metering_1)
   elPoCons$Sub_metering_2 <- as.numeric(elPoCons$Sub_metering_2)
   elPoCons$Sub_metering_3 <- as.numeric(elPoCons$Sub_metering_3)
