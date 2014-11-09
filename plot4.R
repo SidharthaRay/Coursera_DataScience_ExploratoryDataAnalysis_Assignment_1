@@ -1,6 +1,6 @@
 #Plot "DateTime" vs "GlobalActivePower", "DateTime" vs "Voltage", 
 #"Datetime" vs ("Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
-#and "Datetime", "Global_reactive_power"
+#and "Datetime", "Global_reactive_power" 
 plot4 <- function() {
   #load the data
   elPoCons <- read.table("household_power_consumption.txt", header=T, sep=";", stringsAsFactors=FALSE, dec=".", na.strings="?")
