@@ -1,4 +1,4 @@
-#Plot "DateTime" vs (Sub_metering_1, Sub_metering_2 and Sub_metering_3)
+#Plot "DateTime" vs (Sub_metering_1, Sub_metering_2 and Sub_metering_3) 
 plot3 <- function() {
   #load the data
   elPoCons <- read.table("household_power_consumption.txt", header=T, sep=";", stringsAsFactors=FALSE, dec=".", na.strings="?")
