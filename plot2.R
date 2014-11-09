@@ -1,4 +1,4 @@
-#Plot "Global Active Power(kilowatts)" vs "DateTime"
+#Plot "Global Active Power(kilowatts)" vs "DateTime" 
 plot2 <- function() {
   #load the data
   elPoCons <- read.table("household_power_consumption.txt", header=T, sep=";", stringsAsFactors=FALSE, dec=".", na.strings="?")
