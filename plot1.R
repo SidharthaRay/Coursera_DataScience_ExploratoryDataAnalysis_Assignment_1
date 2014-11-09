@@ -1,4 +1,4 @@
-#Histogram of "Global Active Power"
+#Histogram of "Global Active Power" 
 plot1 <- function() {
   #load the data
   elPoCons <- read.table("household_power_consumption.txt", header=T, sep=";", stringsAsFactors=FALSE, dec=".", na.strings="?")
